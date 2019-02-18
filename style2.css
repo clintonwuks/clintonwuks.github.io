@@ -1,0 +1,55 @@
+/*body,*/
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+		background-image: url("header.jpg");
+	background-color: #cccccc;
+	/*background-color:#0e0c0c;*/
+	background-position: center;
+		background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+.clear{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.center {
+color: white;
+/*text-align: center;*/
+  position: absolute;
+  top: 275px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.btn {
+	border-radius: 500px;
+	color: white;
+	background-color: red;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  box-shadow: 0px 1px 0px 1px red;
+   position: absolute;
+} 
+.btn-xl{
+	padding: 0.5rem 1rem;
+	border-color: red;
+	transition: all 1s;
+}
+.btn-xl:hover{
+	transform: scale(1.1);
+}
+
